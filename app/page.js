@@ -1,5 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Certificates from './components/certificates';
+import Education from './components/education';
+import Projects from './components/projects';
+import Skills from './components/skills';
 // import { Router, useRouter } from 'next/router';
 
 export default function Home() {
@@ -166,9 +170,14 @@ export default function Home() {
         </div>
       </section>
 
+      <Certificates/>
+      <Education/>
+      <Projects/>
+      <Skills/>
+
       {/* Footer Section */}
-      <footer className="bg-gray-800 py-4 text-center text-gray-300">
-        <p>© {new Date().getFullYear()} Import Export Business. All rights reserved.</p>
+      <footer className="bg-gray-800 py-4 text-center text-gray-300 mt-5">
+        <p>© {new Date().getFullYear()} Zienamarkos Molla. All rights reserved.</p>
       </footer>
     </div>
   );
