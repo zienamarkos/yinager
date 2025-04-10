@@ -22,7 +22,7 @@ function AboutPage() {
 
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '20px' }} className="bg-black text-white p-4">
       {/* <h1>About Us</h1>
       <p>
         This is the about page of our wonderful application. 
@@ -54,11 +54,11 @@ function AboutPage() {
       <h1>Zienamarkos Molla</h1>
           <Image
             
-            src="/images/carton.png"
+            src="/images/cartonn.png"
             alt="Zena's Profile"
             width={550}
             height={450}
-            className="rounded-full border-4 border-white shadow-lg"            
+            className="rounded-full border-4 border-black shadow-lg"            
           />
           
         </div>
@@ -68,7 +68,7 @@ function AboutPage() {
         <p className="text-gray-400">Software Engineer & Cybersecurity Specialist</p>
       </header>
       
-      <section className="grid md:grid-cols-2 gap-8">
+      <section className="grid md:grid-cols-2 gap-8" >
         <Card className="bg-gray-800 p-6 rounded-xl shadow-lg">
           <CardContent>
             <h2 className="text-2xl font-semibold mb-4">About Me</h2>

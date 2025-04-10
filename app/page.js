@@ -4,11 +4,17 @@ import Certificates from './components/certificates';
 import Education from './components/education';
 import Projects from './components/projects';
 import Skills from './components/skills';
+import Navbar from './components/navbar';
+import Testimonials from './components/testimonial';
+
+
 // import { Router, useRouter } from 'next/router';
 
 export default function Home() {
   return (
+
     <div className="font-sans">
+      <Navbar/>
       {/* Hero Section */}
       <header className="bg-gray-100 py-20 text-center">
         <div className="container mx-auto px-4">
@@ -170,10 +176,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Certificates/>
-      <Education/>
-      <Projects/>
-      <Skills/>
+      <Testimonials/>
 
       {/* Footer Section */}
       <footer className="bg-gray-800 py-4 text-center text-gray-300 mt-5">
