@@ -42,14 +42,15 @@ function AboutPage() {
         <header className="text-center mb-12">
           <motion.div
             className="w-40 h-40 rounded-full mx-auto mt-10"
-            initial={{ y: 500, opacity: 0 }} // start from bottom
-            animate={{ y: 0, opacity: 1 }}   // move to top center
+            initial={{ y: 200, x:-100, opacity: 0 }} // start from bottom
+            animate={{ y: 0, x: 0, opacity: 1 }}   // move to top center
             transition={{
               duration: 0.8,       // fast motion
               ease: 'easeOut',
               delay: 0.2,          // slight delay before start
             }}
           >
+        
             <Image
               src="/images/cartonn-removebg.png"
               alt="Zena's Profile"
