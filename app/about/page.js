@@ -52,10 +52,10 @@ function AboutPage() {
           >
         
             <Image
-              src="/images/cartonn-removebg.png"
+              src="/images/proff.png"
               alt="Zena's Profile"
               width={500}
-              height={500}
+              height={700}
               priority
               className="rounded-full border-4 border-black shadow-lg"
             />

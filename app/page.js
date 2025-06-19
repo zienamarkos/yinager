@@ -40,17 +40,17 @@ export default function Home() {
             {/* Service Card 1 */}
             <div className="bg-white shadow-md rounded-lg p-6">
                 <Image
-                    src="/images/dani.png" //Placeholder. Replace with an actual path
+                    src="/images/constr.webp" //Placeholder. Replace with an actual path
                     alt="Import Services"
                     width={700}
                     height={500}
                     className="mx-auto mb-4"
                 />
               <h3 className="text-xl font-semibold text-gray-700 mb-2">
-                Import Services
+                construction materials import Services
               </h3>
               <p className="text-gray-600">
-                Sourcing, quality control, and shipping of products to your doorstep.
+                Sourcing, quality control, and shipping of high level construction materials to your doorstep.
               </p>
             </div>
              {/* Service Card 2 */}
@@ -63,7 +63,7 @@ export default function Home() {
                    className="mx-auto mb-4"
                 />
               <h3 className="text-xl font-semibold text-gray-700 mb-2">
-                Export Services
+                Fruits,vegetables and crops export Services
               </h3>
               <p className="text-gray-600">
                 Access new markets and ship your products around the world with ease.
@@ -72,17 +72,17 @@ export default function Home() {
               {/* Service Card 3 */}
              <div className="bg-white shadow-md rounded-lg p-6">
                <Image
-                    src="/images/dani.png" //Placeholder. Replace with an actual path
+                    src="/images/hotel.webp" //Placeholder. Replace with an actual path
                     alt="Logistics and Customs Clearance"
                     width={700}
                     height={500}
                     className="mx-auto mb-4"
                 />
               <h3 className="text-xl font-semibold text-gray-700 mb-2">
-                Logistics and Customs Clearance
+                Hotel and house utilities
               </h3>
               <p className="text-gray-600">
-                We handle shipping, paperwork, and customs for hassle-free trade.
+                Order high quality utilities for hotels, restaurants and even your house.
               </p>
             </div>
           </div>
