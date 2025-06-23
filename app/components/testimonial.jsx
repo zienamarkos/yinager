@@ -4,23 +4,23 @@ import "../styles/Testimonials.css"; // custom CSS we'll create
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Daniel Kim",
     role: "Project Manager",
-    image: "/images/cartonn.png",
+    image: "/images/man1.jpeg",
     quote: "This organization transformed how we work.",
     message: "I'm grateful to be part of such a dynamic and visionary team.",
   },
   {
-    name: "Daniel Kim",
+    name: "Sarah Johnson",
     role: "Software Engineer",
-    image: "/images/cartonn.png",
+    image: "/images/woman1.jpeg",
     quote: "Amazing experience with supportive colleagues.",
     message: "Every day is an opportunity to grow and innovate.",
   },
   {
     name: "Amina Yusuf",
     role: "Marketing Specialist",
-    image: "/images/cartonn.png",
+    image: "/images/man2.jpeg",
     quote: "I've grown so much professionally here.",
     message: "The leadership and learning opportunities are unmatched.",
   },

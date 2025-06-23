@@ -19,7 +19,7 @@ export default function Home() {
       <header className="bg-gray-100 py-20 text-center">
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-bold text-gray-800 mb-4">
-            Your Gateway to Global Trade
+            Your Gateway to Quality Products.
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Seamlessly import and export products worldwide.
