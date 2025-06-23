@@ -1,12 +1,12 @@
 "use client";
 import Link from "next/link";
 import React, {useState} from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import Projects from "../components/projects";
 
 
 function AboutPage() {
@@ -82,7 +82,7 @@ function AboutPage() {
       <section className="mt-12">
         <h2 className="text-3xl font-bold mb-6">Projects</h2>
         
-
+              
               <h3 className="text-xl font-semibold mb-2">E-commerce App</h3>
               <p className="text-gray-300">Full-stack application built with Angular & Node.js.</p>
            
